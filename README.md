@@ -25,4 +25,13 @@ python main.py --save /path/to/your/model
 Fine-tune hyperparameters (e.g. learning rate, the number of hidden units) on each dataset.
 
 ### Reference:
-If you find this repository helpful, please cite our paper
+If you find this repository helpful, please cite our paper:
+```bibtex
+@inproceedings{chen2020generating,
+  title={Learning Variational Word Masks to Improve the Interpretability of Neural Text Classifiers},
+  author={Chen, Hanjie and Ji, Yangfeng},
+  booktitle={EMNLP},
+  url={https://arxiv.org/abs/2010.00667},
+  year={2020}
+}
+```
