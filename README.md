@@ -27,7 +27,7 @@ Fine-tune hyperparameters (e.g. learning rate, the number of hidden units) on ea
 ### Reference:
 If you find this repository helpful, please cite our paper:
 ```bibtex
-@inproceedings{chen2020generating,
+@inproceedings{chen2020learning,
   title={Learning Variational Word Masks to Improve the Interpretability of Neural Text Classifiers},
   author={Chen, Hanjie and Ji, Yangfeng},
   booktitle={EMNLP},
