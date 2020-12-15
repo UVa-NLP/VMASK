@@ -8,15 +8,15 @@ Code for the paper "Learning Variational Word Masks to Improve the Interpretabil
 - numpy == 1.16.4
 
 ### Data:
-Download the [data with splits](https://drive.google.com/file/d/1n9wVSsPBjIu9Ni0GodF21nikgrSSKfWR/view?usp=sharing) for CNN/LSTM-VMASK.
+Download the [data with splits](https://drive.google.com/drive/folders/12ZbWntUFGoO2WF6Ut33WzW8ochroYFbR?usp=sharing) for CNN/LSTM-VMASK.
 
-Download the [data with splits](https://drive.google.com/file/d/1mpM8cazHjKZSR_mC7NIgoK0nFsiHjSP2/view?usp=sharing) for BERT-VMASK.
+Download the [data with splits](https://drive.google.com/drive/folders/1ybKuzvAhyMqgpDjITVVA3USPhz6pehfq?usp=sharing) for BERT-VMASK.
 
 Put the data under the same folder with the code.
 
 ### Train VMASK Models:
 
-For BERT-VMASK, we adopt the BERT-base model built by huggingface: https://github.com/huggingface/transformers. We first trained BERT-base model, and then loaded its word embeddings for training BERT-VMASK. You can download our [pretrained BERT-base models](https://drive.google.com/file/d/1RLTZ5I4hpn_j7sYgVaSmN2RXGKTq7Shr/view?usp=sharing), and put them under the same folder with the code.
+For BERT-VMASK, we adopt the BERT-base model built by huggingface: https://github.com/huggingface/transformers. We first trained BERT-base model, and then loaded its word embeddings for training BERT-VMASK. You can download our [pretrained BERT-base models](https://drive.google.com/drive/folders/19nzAv1wWtM5UCNAORMqrNtBH6j3ZXmSz?usp=sharing), and put them under the same folder with the code.
 
 In each folder, run the following command to train VMASK-based models.
 ```
